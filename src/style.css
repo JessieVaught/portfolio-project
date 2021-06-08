@@ -12,12 +12,13 @@ h1, h2, h3, p {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
 }
 
 h2 {
-    display: block;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 35px;
     max-width: 560px;
     margin: auto;
@@ -28,10 +29,16 @@ h3 {
     line height 38 px;
     color: #272142;
 }
+
+h4, a {
+    color: #272142;
+    font-size: 10px;
+    font-weight: bold;
+}
 p {
-    background-color: aquamarine;
-    color: grey;
+    color: #272142;
     font-family: 'Nunito', sans-serif;
+    font-size: 10px;
 }
 
 
