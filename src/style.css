@@ -32,13 +32,13 @@ h3 {
 
 h4, a {
     color: #272142;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
 }
 p {
     color: #272142;
     font-family: 'Nunito', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -54,4 +54,10 @@ p {
 .hero {
     text-align: center;
     color: white;
+}
+
+.favorites {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
 }
