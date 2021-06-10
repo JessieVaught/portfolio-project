@@ -9,12 +9,14 @@ font-family: 'Inter', sans-serif;
 
 h1, h2, h3, p {
     font-family: 'Nunito', sans-serif;
+    
 }
 
 h1 {
     font-size: 36px;
     text-align: center;
     font-weight: 700;
+    color: #272142;
 }
 
 h2 {
@@ -26,7 +28,7 @@ h2 {
 
 h3 {
     font-size: 20px;
-    line height 38 px;
+    line-height: 38 px;
     color: #272142;
 }
 
@@ -51,7 +53,7 @@ p {
     ;
 }
 
-.hero {
+.hero h1, h2{
     text-align: center;
     color: white;
 }
@@ -60,4 +62,31 @@ p {
     text-align: center;
     font-weight: bold;
     font-size: 22px;
+}
+
+.recipe-collection {
+    color: #272142;
+}
+
+.recipe-collection p {
+    font-size: 12px;
+}
+
+.recipe-collection h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.recipe-collection h4 {
+    color: #F65282;
+    font-size: 12px;;
+}
+
+.bottom-border-title {
+    border-bottom: 2px dashed #67D5D2;
+
+}
+
+.bottom-border {
+    border-bottom: 1px dashed #67D5D2;
 }
