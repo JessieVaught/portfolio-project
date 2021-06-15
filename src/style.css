@@ -43,14 +43,28 @@ p {
     font-size: 12px;
 }
 
+nav {
+    padding: 20px 0;
+    color: #272142;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 22px;
+
+}
 
 .logo {
-    font-family: 'Inter', sans-serif !important;
-    color: #272044;
-    font-size: 11px;
-    line-height: 16px;
-    font-weight: bolder;
-    ;
+    max-width: 150px;
+    display: block;
+    justify-content: left; 
 }
 
 .hero h1, h2{
@@ -94,4 +108,9 @@ p {
 
 .contact-me h4 {
  color: #662EED;
+}
+
+.current-page {
+    color: #662EED !important;
+    font-weight: bolder !important;
 }
