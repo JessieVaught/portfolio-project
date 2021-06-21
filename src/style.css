@@ -72,6 +72,11 @@ footer {
     background-color: #F9F7FE;
 }
 
+footer img {
+    display: block;
+    margin: auto;
+}
+
 .logo {
     max-width: 150px;
     display: block;
@@ -124,4 +129,8 @@ footer {
 .current-page {
     color: #662EED !important;
     font-weight: bolder !important;
+}
+
+.page-footer {
+    background-color: white;
 }
